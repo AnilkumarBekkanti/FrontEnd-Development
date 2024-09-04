@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup Form</title>
+</head>
+<body>
+    <div>
+        <h1>Signup Details</h1>
+        <div>
+            <form>
+                <label>Name:</label>
+                <input type="text" placeholder="Enter Name"/>
+                <br></br>
+                <label>Date of Birth:</label>
+                <input type="date" placeholder="set date"/>
+                <br></br>
+                <label>Mobile Number:</label>
+                <input type="number" placeholder="Enter Mobile Number"/>
+                <br></br>
+                <label>Alter Mobile Number:</label>
+                <input type="number" placeholder="Enter Alter Mobile Number"/>
+                <br></br>
+                <label>Age:</label>
+                <input type="number" placeholder="Enter Age"/>
+                <br></br>
+                <label>College Name</label>
+                <input type="text" placeholder="Enter College Name"/>
+                <br></br>
+                <fieldset style="width:20%">
+                <legend>Gender:</legend>
+                
+                <input type="radio" id="male"  name="gender" value="male" required/>
+                <label for="male">Male</label>
+                <br/>
+                <input type="radio" id="female" name="gender" value="female" required/>
+                <label for="female">Female</label>
+                <br/>
+                </fieldset>
+                <br></br>
+                <fieldset style="width:20%">
+                <legend>Skills:</legend>
+                <input type="checkbox" id="html" name="Skills" value="html" required/>
+                <label for="html">HTML</label>
+                <br/>
+                <input type="checkbox" id="css" name="Skills" value="css" required/>
+                <label for="css">CSS</label>
+                <br/>
+                <input type="checkbox" id="JavaScript" name="Skills" value="javascript" required/>
+                <label for="javascript">JavaScript</label>
+                <br/>
+                <input type="checkbox" id=""Python" name="Skills" value="Python" required/>
+                <label for="python">Python</label>
+                </fieldset>
+                <br></br>
+                <label>Roll:</label>
+                <select id="Roll" name="Roll" required>
+                    <option value="Employee">Employee</option>
+                    <option value="Student">Student</option>
+                </select>
+                <br></br>
+                <label>Resume:</label>
+                <input type="file" id="Resume" name="Resume" accept=".pdf, .doc, .docx" required/>
+                <br></br>
+
+                <label for="note">Note:</label>
+                <br/>
+                <textarea id="note" name="note" rows="4" cols="50">
+
+                </textarea>
+                <br></br>
+                
+
+                    
+
+                </select>
+               
+                
+            </form>
+        </div>
+    </div>
+    
+    
+</body>
+</html>
